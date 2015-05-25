@@ -1,0 +1,52 @@
+nav {
+  max-width: 100%; }
+  nav ul {
+    height: 50px;
+    margin: 0;
+    max-width: 100%;
+    background: linear-gradient(to right, #cccccc 65%, #999999 0%); }
+  nav li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    float: left; }
+  nav .subNav {
+    width: 13%;
+    font-size: 1.5em;
+    line-height: 50px; }
+    nav .subNav:hover {
+      background-color: #76a641;
+      color: white; }
+  nav .active {
+    color: white;
+    width: 33%;
+    font-size: 1.2em;
+    padding-top: 5px; }
+  nav hr {
+    background-color: white;
+    height: 1px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%; }
+
+@media screen and (max-width: 1098px) {
+  nav .subNav {
+    font-size: 1em; }
+  nav .active {
+    font-size: 0.8em;
+    padding-top: 7px; } }
+@media screen and (max-width: 767px) {
+  nav .subNav {
+    font-size: 0.8em; }
+  nav .active {
+    font-size: 0.5em;
+    padding-top: 10px; } }
+@media screen and (max-width: 320px) {
+  nav .subNav {
+    font-size: 0.1em; }
+  nav .active {
+    font-size: 0.1em;
+    padding-top: 12px; } }
+
+/*# sourceMappingURL=main.css.map */

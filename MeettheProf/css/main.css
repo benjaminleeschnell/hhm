@@ -1,0 +1,15 @@
+.prof {
+  background-color: #898989;
+  color: white; }
+
+.image {
+  padding: 0; }
+
+.caption {
+  padding-top: 10px; }
+  .caption p {
+    line-height: 1em; }
+  .caption span {
+    font-style: italic; }
+
+/*# sourceMappingURL=main.css.map */
